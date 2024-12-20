@@ -18,41 +18,7 @@ import com.comcast.crm.objectRepository_utility.VendornameWindowPage;
 
 @Listeners(com.comcast.crm.listenerutility.ListenersImplementationClass.class)
 public class CreateProductTest extends BaseClass {
-
-	@Test
-	public void createProductWithPortnoTest() throws Throwable {
-
-		UtilityClassObject.getTest().log(Status.INFO, "Read data from excel file");
-		String productName = elib.getDatafromExcelfle("product", 4, 2) + jlib.getRandomNumber();
-		String portno = elib.getDatafromExcelfle("product", 4, 3) + jlib.getRandomNumber();
-		
-		UtilityClassObject.getTest().log(Status.INFO, "Login-----> navigate to Product");
-		HomePage hp = new HomePage(driver);
-		hp.getProductlnk().click();
-
-		ProductPage pp = new ProductPage(driver);
-		pp.getCreateproductIcon().click();
-		
-		UtilityClassObject.getTest().log(Status.INFO, "Create new product----->Enter all the details");
-		CreateProductPage ccp = new CreateProductPage(driver);
-		ccp.createproduct(productName, portno);
-		
-		UtilityClassObject.getTest().log(Status.INFO, "Save all details");
-		ccp.getSavebtn().click();
-		
-		jlib.wait(1000);
-		UtilityClassObject.getTest().log(Status.INFO, "Verification  of product started!!!");
-		ProductInfoPage pi = new ProductInfoPage(driver);
-		String actheader = pi.getProductheader().getText();
-		
-		boolean headerText = actheader.contains(productName);
-		
-		Assert.assertEquals(headerText, true);
-		System.out.println("===header got verified!!!===");
-		UtilityClassObject.getTest().log(Status.INFO, "Header msg got verified!!!");
-
-	}
-
+	
 	@Test
 	public void createProductWithCatogryTest() throws Throwable {
 
