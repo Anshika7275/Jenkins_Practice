@@ -33,6 +33,7 @@ public class BaseClass {
 	public WebDriver driver=null;
 	public static WebDriver sdriver;
 	
+	
 	@BeforeSuite (alwaysRun =  true)
 	public void configBS() {
 		System.out.println("====Connect to DB and Report config====");
@@ -45,7 +46,8 @@ public class BaseClass {
 	@BeforeClass (alwaysRun =  true)
 	public void configBC(/*String BROWSER*/) throws Throwable {
 		System.out.println("====Launch the browser====");
-	    String BROWSER = flib.getDataFromPropertiesFile("browser");
+	    //String BROWSER = flib.getDataFromPropertiesFile("browser");
+		String BROWSER = System.getProperty("browser" , flib.getDataFromPropertiesFile("browser"));
 		//String BROWSER=BROWSER;
 		
 		if(BROWSER.equals("chrome"))
@@ -71,9 +73,12 @@ public class BaseClass {
 	@BeforeMethod(alwaysRun =  true)
 	public void configBM() throws Throwable {
 		System.out.println("===Login to Browser====");
-		String URL = flib.getDataFromPropertiesFile("url");
-		String USERNAME = flib.getDataFromPropertiesFile("username");
-		String PASSWORD = flib.getDataFromPropertiesFile("password");
+		//String URL = flib.getDataFromPropertiesFile("url");
+		String URL = System.getProperty("url" , flib.getDataFromPropertiesFile("url"));
+		//String USERNAME = flib.getDataFromPropertiesFile("username");
+		String USERNAME = System.getProperty("username" , flib.getDataFromPropertiesFile("username"));
+		//String PASSWORD = flib.getDataFromPropertiesFile("password");
+		String PASSWORD = System.getProperty("password", flib.getDataFromPropertiesFile("password"));
 		
 		driver.get(URL);
 		wlib.maximizeWindow(driver);
