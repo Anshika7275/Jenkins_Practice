@@ -1,0 +1,1396 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>CRM app-->contact create test</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">contact create test</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 20, 2024 06:05:26 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createContactTest</p>
+            <p class="text-sm">
+              <span>6:07:51 pm</span> / <span>00:02:35:517</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createContactTest</h5>
+<span class='badge badge-success'>12.20.2024 6:07:51 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:10:27 pm</span>
+<span class='badge badge-default'>00:02:35:517</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:07:51 pm</td>
+        <td>
+          createContactTest=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:07:51 pm</td>
+        <td>
+          read data from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:07:59 pm</td>
+        <td>
+          login--->navigate to contact page!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:08:26 pm</td>
+        <td>
+          create contact!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:08:54 pm</td>
+        <td>
+          craete new contact!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:08:55 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:10:26 pm</td>
+        <td>
+          Start verification of Contact!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:10:27 pm</td>
+        <td>
+          header verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:10:27 pm</td>
+        <td>
+          LastName textFeild verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:10:27 pm</td>
+        <td>
+          New contact created!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:10:27 pm</td>
+        <td>
+          createContactTest=====SUCCESS!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createContactWithDate</p>
+            <p class="text-sm">
+              <span>6:11:24 pm</span> / <span>00:00:00:003</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">createContactWithDate</h5>
+<span class='badge badge-success'>12.20.2024 6:11:24 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:11:24 pm</span>
+<span class='badge badge-default'>00:00:00:003</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:11:24 pm</td>
+        <td>
+          createContactWithDate=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:11:24 pm</td>
+        <td>
+          createContactWithDate=====SKIPPED!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createContactWithOrgTest</p>
+            <p class="text-sm">
+              <span>6:11:32 pm</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">createContactWithOrgTest</h5>
+<span class='badge badge-success'>12.20.2024 6:11:32 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:11:32 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:11:32 pm</td>
+        <td>
+          createContactWithOrgTest=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:11:32 pm</td>
+        <td>
+          createContactWithOrgTest=====SKIPPED!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createOppWithOrgNameTest</p>
+            <p class="text-sm">
+              <span>6:12:06 pm</span> / <span>00:00:41:036</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createOppWithOrgNameTest</h5>
+<span class='badge badge-success'>12.20.2024 6:12:06 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:12:47 pm</span>
+<span class='badge badge-default'>00:00:41:036</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:06 pm</td>
+        <td>
+          createOppWithOrgNameTest=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:06 pm</td>
+        <td>
+          read data from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:07 pm</td>
+        <td>
+          login----> navigate to Org
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:20 pm</td>
+        <td>
+          create new organization----> Enter all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:20 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:20 pm</td>
+        <td>
+          Sart with verification!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:26 pm</td>
+        <td>
+          Header msg verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:27 pm</td>
+        <td>
+          navigate to oppurnutities
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:34 pm</td>
+        <td>
+          Create new oppurnuties----> Enter all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:34 pm</td>
+        <td>
+          Select the orgName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:43 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:47 pm</td>
+        <td>
+          Start with verification of Oppurnuties!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:47 pm</td>
+        <td>
+          Header msg got verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:47 pm</td>
+        <td>
+          Oppurnuty msg got verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:47 pm</td>
+        <td>
+          OrgName got verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:12:47 pm</td>
+        <td>
+          createOppWithOrgNameTest=====SUCCESS!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createProductWithdatesTest</p>
+            <p class="text-sm">
+              <span>6:12:54 pm</span> / <span>00:00:20:479</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createProductWithdatesTest</h5>
+<span class='badge badge-success'>12.20.2024 6:12:54 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:13:14 pm</span>
+<span class='badge badge-default'>00:00:20:479</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:54 pm</td>
+        <td>
+          createProductWithdatesTest=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:54 pm</td>
+        <td>
+          Read data from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:12:54 pm</td>
+        <td>
+          Login--->navigate to product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:06 pm</td>
+        <td>
+          Create new Product----> Enter all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:07 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:14 pm</td>
+        <td>
+          Verification statrted!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:14 pm</td>
+        <td>
+          product name verified!!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:14 pm</td>
+        <td>
+          date is verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:14 pm</td>
+        <td>
+          end date is verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:14 pm</td>
+        <td>
+          start date is verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:14 pm</td>
+        <td>
+          expiry date is verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:13:14 pm</td>
+        <td>
+          createProductWithdatesTest=====SUCCESS!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createOrgNameTest</p>
+            <p class="text-sm">
+              <span>6:13:31 pm</span> / <span>00:00:17:351</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createOrgNameTest</h5>
+<span class='badge badge-success'>12.20.2024 6:13:31 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:13:48 pm</span>
+<span class='badge badge-default'>00:00:17:351</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:31 pm</td>
+        <td>
+          createOrgNameTest=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:31 pm</td>
+        <td>
+          Read data from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:31 pm</td>
+        <td>
+          Login----> navigate to organization
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:38 pm</td>
+        <td>
+          create new organization-----> Enter all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:41 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:44 pm</td>
+        <td>
+          Verification of organization started!!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:48 pm</td>
+        <td>
+          Header msg got verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:13:48 pm</td>
+        <td>
+          createOrgNameTest=====SUCCESS!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createOrgWithIndustryTest</p>
+            <p class="text-sm">
+              <span>6:13:55 pm</span> / <span>00:00:15:486</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createOrgWithIndustryTest</h5>
+<span class='badge badge-success'>12.20.2024 6:13:55 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:14:11 pm</span>
+<span class='badge badge-default'>00:00:15:486</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:55 pm</td>
+        <td>
+          createOrgWithIndustryTest=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:55 pm</td>
+        <td>
+          Read data from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:13:56 pm</td>
+        <td>
+          Login----> navigate to organization
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:06 pm</td>
+        <td>
+          Create new Org-----> Enter all details alog with industry and type
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:06 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:08 pm</td>
+        <td>
+          Verification of organization started!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:10 pm</td>
+        <td>
+          OrgName header msg got verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:10 pm</td>
+        <td>
+          OrgName with industry verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:11 pm</td>
+        <td>
+          OrgName with type verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:14:11 pm</td>
+        <td>
+          createOrgWithIndustryTest=====SUCCESS!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createOrgnameWithPhone</p>
+            <p class="text-sm">
+              <span>6:14:17 pm</span> / <span>00:00:14:881</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createOrgnameWithPhone</h5>
+<span class='badge badge-success'>12.20.2024 6:14:17 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:14:32 pm</span>
+<span class='badge badge-default'>00:00:14:881</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:17 pm</td>
+        <td>
+          createOrgnameWithPhone=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:17 pm</td>
+        <td>
+          Read data from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:17 pm</td>
+        <td>
+          Login------> navigate to Orgnization
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:27 pm</td>
+        <td>
+          Create new Organization------>Enter all details along with phone number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:27 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:29 pm</td>
+        <td>
+          Verification of Organization started!!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:32 pm</td>
+        <td>
+          header msg got verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:32 pm</td>
+        <td>
+          Orgname with Phone number verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:14:32 pm</td>
+        <td>
+          createOrgnameWithPhone=====SUCCESS!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createProductWithCatogryTest</p>
+            <p class="text-sm">
+              <span>6:14:49 pm</span> / <span>00:00:14:919</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createProductWithCatogryTest</h5>
+<span class='badge badge-success'>12.20.2024 6:14:49 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:15:04 pm</span>
+<span class='badge badge-default'>00:00:14:919</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:49 pm</td>
+        <td>
+          createProductWithCatogryTest=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:49 pm</td>
+        <td>
+          Read data from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:49 pm</td>
+        <td>
+          Login-----> navigate to product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:57 pm</td>
+        <td>
+          Create new product----> Enter all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:14:59 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:04 pm</td>
+        <td>
+          Verification of product started!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:15:04 pm</td>
+        <td>
+          Product name got verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:15:04 pm</td>
+        <td>
+          Product catogry got verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:15:04 pm</td>
+        <td>
+          createProductWithCatogryTest=====SUCCESS!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createProductWithPortnoTest</p>
+            <p class="text-sm">
+              <span>6:15:11 pm</span> / <span>00:00:18:290</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createProductWithPortnoTest</h5>
+<span class='badge badge-success'>12.20.2024 6:15:11 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:15:29 pm</span>
+<span class='badge badge-default'>00:00:18:290</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:11 pm</td>
+        <td>
+          createProductWithPortnoTest=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:11 pm</td>
+        <td>
+          Read data from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:11 pm</td>
+        <td>
+          Login-----> navigate to Product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:23 pm</td>
+        <td>
+          Create new product----->Enter all the details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:23 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:29 pm</td>
+        <td>
+          Verification  of product started!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:29 pm</td>
+        <td>
+          Header msg got verified!!!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:15:29 pm</td>
+        <td>
+          createProductWithPortnoTest=====SUCCESS!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createProductWithVendorNameTest</p>
+            <p class="text-sm">
+              <span>6:15:36 pm</span> / <span>00:00:50:673</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">createProductWithVendorNameTest</h5>
+<span class='badge badge-success'>12.20.2024 6:15:36 pm</span>
+<span class='badge badge-danger'>12.20.2024 6:16:27 pm</span>
+<span class='badge badge-default'>00:00:50:673</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+                <a href="data:image/png;base64,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" data-featherlight="image"><span class="badge badge-gradient-primary">base64 img</span></a>
+          
+    <div class="title">createProductWithVendorNameTestFri_Dec_20_18.16.26_IST_2024</div>
+
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:36 pm</td>
+        <td>
+          createProductWithVendorNameTest=====STARTED!!!!====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:36 pm</td>
+        <td>
+          Read data from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:36 pm</td>
+        <td>
+          Login-----> navigate to vendors
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:37 pm</td>
+        <td>
+          create new vendors----->Enter all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:42 pm</td>
+        <td>
+          Save all details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:46 pm</td>
+        <td>
+          Navigate to product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:51 pm</td>
+        <td>
+          Create new product-----> Enter all details along with vendor name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:15:51 pm</td>
+        <td>
+          Switch to Vendor tab----->Select the vendor name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:16:27 pm</td>
+        <td>
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='company_115']"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c3754b675bea4c081a49e157c6afae6, findElement {value=//a[text()='company_115'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\anshi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60375}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60375/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c3754b675bea4c081a49e157c6afae6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at vTigerModuleTest.CreateProductTest.createProductWithVendorNameTest(CreateProductTest.java:138)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:16:27 pm</td>
+        <td>
+          createProductWithVendorNameTest=====FAILED!!!!====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:15:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>createProductWithVendorNameTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 20, 2024 06:05:26 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 20, 2024 06:17:04 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>8</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='72%'>
+<b>8</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='9%'><b>1</b> tests failed,
+<b>2</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='12%'><b>12</b> events passed</small></div>
+<div>
+<small data-tooltip='2%'><b>2</b> events failed,
+<b data-tooltip='%'>83</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"createContactTest":155.517,"createContactWithDate":0.003,"createContactWithOrgTest":0.001,"createOppWithOrgNameTest":41.036,"createProductWithdatesTest":20.479,"createOrgNameTest":17.351,"createOrgWithIndustryTest":15.486,"createOrgnameWithPhone":14.881,"createProductWithCatogryTest":14.919,"createProductWithPortnoTest":18.29,"createProductWithVendorNameTest":50.673
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows-10</td>
+</tr>
+<tr>
+<td>BROWSER</td>
+<td>Chrome</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 8,
+failParent: 1,
+warningParent: 0,
+skipParent: 2,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 12,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 2,
+infoEvents: 81
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
