@@ -42,7 +42,7 @@ public class BaseClass {
 		
 	}
 	
-//	@Parameters("BROWSER")
+	@Parameters("BROWSER")
 	@BeforeClass (alwaysRun =  true)
 	public void configBC(/*String BROWSER*/) throws Throwable {
 		System.out.println("====Launch the browser====");
